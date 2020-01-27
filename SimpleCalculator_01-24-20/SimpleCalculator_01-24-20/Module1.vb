@@ -32,6 +32,8 @@ Module Module1
             Console.WriteLine(CInt(firstNumber) * CInt(secondNumber))
 
             'display results
+        Else
+            Console.WriteLine("Invalid entry. Please use numbers only.")
             Console.ReadLine()
 
         End If
