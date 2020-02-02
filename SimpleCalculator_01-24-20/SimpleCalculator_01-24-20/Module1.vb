@@ -25,10 +25,12 @@ Module Module1
 
         'if user types "sum" the console uses addition
         If productSum = "sum" Then
+            Console.WriteLine("expression " & firstNumber & "+" & secondNumber & "=")
             Console.WriteLine(CInt(firstNumber) + CInt(secondNumber))
 
             'if user types "product the console uses multiplication
         ElseIf productSum = "product" Then
+            Console.WriteLine("expression " & firstNumber & "*" & secondNumber & "=")
             Console.WriteLine(CInt(firstNumber) * CInt(secondNumber))
 
             'display results
