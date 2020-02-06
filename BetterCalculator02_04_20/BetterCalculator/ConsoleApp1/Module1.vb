@@ -20,7 +20,7 @@ Module Module1
 
         'doMath(7, 5 "Multiply")
         For i = 1 To 100 Step 1.5
-            showPattern(i, "#")
+            showPattern(i, "+")
         Next
         Console.ReadLine()
 
