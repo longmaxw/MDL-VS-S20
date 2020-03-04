@@ -210,9 +210,9 @@ Partial Class AddressLabelForm
         'DisplayLabel
         '
         Me.DisplayLabel.AutoSize = True
-        Me.DisplayLabel.Location = New System.Drawing.Point(35, 65)
+        Me.DisplayLabel.Location = New System.Drawing.Point(55, 33)
         Me.DisplayLabel.Name = "DisplayLabel"
-        Me.DisplayLabel.Size = New System.Drawing.Size(0, 9)
+        Me.DisplayLabel.Size = New System.Drawing.Size(0, 13)
         Me.DisplayLabel.TabIndex = 0
         '
         'AddressLabelForm
