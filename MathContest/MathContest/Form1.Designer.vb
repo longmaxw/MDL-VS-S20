@@ -26,24 +26,24 @@ Partial Class MathContest
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
         Me.StudentInfoGroupBox = New System.Windows.Forms.GroupBox()
-        Me.NameTextBox = New System.Windows.Forms.TextBox()
-        Me.NameLabel = New System.Windows.Forms.Label()
-        Me.AgeLabel = New System.Windows.Forms.Label()
-        Me.AgeTextBox = New System.Windows.Forms.TextBox()
         Me.GradeLabel = New System.Windows.Forms.Label()
         Me.GradeTextBox = New System.Windows.Forms.TextBox()
+        Me.AgeLabel = New System.Windows.Forms.Label()
+        Me.AgeTextBox = New System.Windows.Forms.TextBox()
+        Me.NameLabel = New System.Windows.Forms.Label()
+        Me.NameTextBox = New System.Windows.Forms.TextBox()
         Me.CurrentMathProblemGroupBox = New System.Windows.Forms.GroupBox()
-        Me.FirstNumberLabel = New System.Windows.Forms.Label()
-        Me.FirstNumberTextBox = New System.Windows.Forms.TextBox()
-        Me.SecondNumberLabel = New System.Windows.Forms.Label()
-        Me.SecondNumberTextBox = New System.Windows.Forms.TextBox()
         Me.StudentAnswerLabel = New System.Windows.Forms.Label()
         Me.StudentAnswerTextBox = New System.Windows.Forms.TextBox()
+        Me.SecondNumberLabel = New System.Windows.Forms.Label()
+        Me.SecondNumberTextBox = New System.Windows.Forms.TextBox()
+        Me.FirstNumberLabel = New System.Windows.Forms.Label()
+        Me.FirstNumberTextBox = New System.Windows.Forms.TextBox()
         Me.MathFunctionGroupBox = New System.Windows.Forms.GroupBox()
-        Me.AdditionRadioButton = New System.Windows.Forms.RadioButton()
-        Me.SubtractionRadioButton = New System.Windows.Forms.RadioButton()
-        Me.MultiplicationRadioButton = New System.Windows.Forms.RadioButton()
         Me.DivisionRadioButton = New System.Windows.Forms.RadioButton()
+        Me.MultiplicationRadioButton = New System.Windows.Forms.RadioButton()
+        Me.SubtractionRadioButton = New System.Windows.Forms.RadioButton()
+        Me.AdditionRadioButton = New System.Windows.Forms.RadioButton()
         Me.StudentInfoGroupBox.SuspendLayout()
         Me.CurrentMathProblemGroupBox.SuspendLayout()
         Me.MathFunctionGroupBox.SuspendLayout()
@@ -95,22 +95,22 @@ Partial Class MathContest
         Me.StudentInfoGroupBox.TabStop = False
         Me.StudentInfoGroupBox.Text = "Student Information"
         '
-        'NameTextBox
+        'GradeLabel
         '
-        Me.NameTextBox.Location = New System.Drawing.Point(25, 52)
-        Me.NameTextBox.Name = "NameTextBox"
-        Me.NameTextBox.Size = New System.Drawing.Size(232, 20)
-        Me.NameTextBox.TabIndex = 0
+        Me.GradeLabel.AutoSize = True
+        Me.GradeLabel.Font = New System.Drawing.Font("Sitka Small", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GradeLabel.Location = New System.Drawing.Point(333, 21)
+        Me.GradeLabel.Name = "GradeLabel"
+        Me.GradeLabel.Size = New System.Drawing.Size(76, 28)
+        Me.GradeLabel.TabIndex = 5
+        Me.GradeLabel.Text = "Grade:"
         '
-        'NameLabel
+        'GradeTextBox
         '
-        Me.NameLabel.AutoSize = True
-        Me.NameLabel.Font = New System.Drawing.Font("Sitka Small", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NameLabel.Location = New System.Drawing.Point(20, 21)
-        Me.NameLabel.Name = "NameLabel"
-        Me.NameLabel.Size = New System.Drawing.Size(75, 28)
-        Me.NameLabel.TabIndex = 1
-        Me.NameLabel.Text = "Name:"
+        Me.GradeTextBox.Location = New System.Drawing.Point(338, 52)
+        Me.GradeTextBox.Name = "GradeTextBox"
+        Me.GradeTextBox.Size = New System.Drawing.Size(37, 20)
+        Me.GradeTextBox.TabIndex = 4
         '
         'AgeLabel
         '
@@ -129,22 +129,22 @@ Partial Class MathContest
         Me.AgeTextBox.Size = New System.Drawing.Size(37, 20)
         Me.AgeTextBox.TabIndex = 4
         '
-        'GradeLabel
+        'NameLabel
         '
-        Me.GradeLabel.AutoSize = True
-        Me.GradeLabel.Font = New System.Drawing.Font("Sitka Small", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GradeLabel.Location = New System.Drawing.Point(333, 21)
-        Me.GradeLabel.Name = "GradeLabel"
-        Me.GradeLabel.Size = New System.Drawing.Size(76, 28)
-        Me.GradeLabel.TabIndex = 5
-        Me.GradeLabel.Text = "Grade:"
+        Me.NameLabel.AutoSize = True
+        Me.NameLabel.Font = New System.Drawing.Font("Sitka Small", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NameLabel.Location = New System.Drawing.Point(20, 21)
+        Me.NameLabel.Name = "NameLabel"
+        Me.NameLabel.Size = New System.Drawing.Size(75, 28)
+        Me.NameLabel.TabIndex = 1
+        Me.NameLabel.Text = "Name:"
         '
-        'GradeTextBox
+        'NameTextBox
         '
-        Me.GradeTextBox.Location = New System.Drawing.Point(338, 52)
-        Me.GradeTextBox.Name = "GradeTextBox"
-        Me.GradeTextBox.Size = New System.Drawing.Size(37, 20)
-        Me.GradeTextBox.TabIndex = 4
+        Me.NameTextBox.Location = New System.Drawing.Point(25, 52)
+        Me.NameTextBox.Name = "NameTextBox"
+        Me.NameTextBox.Size = New System.Drawing.Size(232, 20)
+        Me.NameTextBox.TabIndex = 0
         '
         'CurrentMathProblemGroupBox
         '
@@ -160,40 +160,6 @@ Partial Class MathContest
         Me.CurrentMathProblemGroupBox.TabIndex = 4
         Me.CurrentMathProblemGroupBox.TabStop = False
         Me.CurrentMathProblemGroupBox.Text = "Current Math Problem"
-        '
-        'FirstNumberLabel
-        '
-        Me.FirstNumberLabel.AutoSize = True
-        Me.FirstNumberLabel.Font = New System.Drawing.Font("Sitka Small", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FirstNumberLabel.Location = New System.Drawing.Point(20, 16)
-        Me.FirstNumberLabel.Name = "FirstNumberLabel"
-        Me.FirstNumberLabel.Size = New System.Drawing.Size(149, 28)
-        Me.FirstNumberLabel.TabIndex = 3
-        Me.FirstNumberLabel.Text = "First Number:"
-        '
-        'FirstNumberTextBox
-        '
-        Me.FirstNumberTextBox.Location = New System.Drawing.Point(25, 47)
-        Me.FirstNumberTextBox.Name = "FirstNumberTextBox"
-        Me.FirstNumberTextBox.Size = New System.Drawing.Size(232, 20)
-        Me.FirstNumberTextBox.TabIndex = 2
-        '
-        'SecondNumberLabel
-        '
-        Me.SecondNumberLabel.AutoSize = True
-        Me.SecondNumberLabel.Font = New System.Drawing.Font("Sitka Small", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SecondNumberLabel.Location = New System.Drawing.Point(20, 70)
-        Me.SecondNumberLabel.Name = "SecondNumberLabel"
-        Me.SecondNumberLabel.Size = New System.Drawing.Size(170, 28)
-        Me.SecondNumberLabel.TabIndex = 5
-        Me.SecondNumberLabel.Text = "Second Number:"
-        '
-        'SecondNumberTextBox
-        '
-        Me.SecondNumberTextBox.Location = New System.Drawing.Point(25, 101)
-        Me.SecondNumberTextBox.Name = "SecondNumberTextBox"
-        Me.SecondNumberTextBox.Size = New System.Drawing.Size(232, 20)
-        Me.SecondNumberTextBox.TabIndex = 4
         '
         'StudentAnswerLabel
         '
@@ -212,6 +178,40 @@ Partial Class MathContest
         Me.StudentAnswerTextBox.Size = New System.Drawing.Size(232, 20)
         Me.StudentAnswerTextBox.TabIndex = 6
         '
+        'SecondNumberLabel
+        '
+        Me.SecondNumberLabel.AutoSize = True
+        Me.SecondNumberLabel.Font = New System.Drawing.Font("Sitka Small", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SecondNumberLabel.Location = New System.Drawing.Point(20, 70)
+        Me.SecondNumberLabel.Name = "SecondNumberLabel"
+        Me.SecondNumberLabel.Size = New System.Drawing.Size(170, 28)
+        Me.SecondNumberLabel.TabIndex = 5
+        Me.SecondNumberLabel.Text = "Second Number:"
+        '
+        'SecondNumberTextBox
+        '
+        Me.SecondNumberTextBox.Location = New System.Drawing.Point(25, 101)
+        Me.SecondNumberTextBox.Name = "SecondNumberTextBox"
+        Me.SecondNumberTextBox.Size = New System.Drawing.Size(232, 20)
+        Me.SecondNumberTextBox.TabIndex = 4
+        '
+        'FirstNumberLabel
+        '
+        Me.FirstNumberLabel.AutoSize = True
+        Me.FirstNumberLabel.Font = New System.Drawing.Font("Sitka Small", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FirstNumberLabel.Location = New System.Drawing.Point(20, 16)
+        Me.FirstNumberLabel.Name = "FirstNumberLabel"
+        Me.FirstNumberLabel.Size = New System.Drawing.Size(149, 28)
+        Me.FirstNumberLabel.TabIndex = 3
+        Me.FirstNumberLabel.Text = "First Number:"
+        '
+        'FirstNumberTextBox
+        '
+        Me.FirstNumberTextBox.Location = New System.Drawing.Point(25, 47)
+        Me.FirstNumberTextBox.Name = "FirstNumberTextBox"
+        Me.FirstNumberTextBox.Size = New System.Drawing.Size(232, 20)
+        Me.FirstNumberTextBox.TabIndex = 2
+        '
         'MathFunctionGroupBox
         '
         Me.MathFunctionGroupBox.Controls.Add(Me.DivisionRadioButton)
@@ -225,29 +225,17 @@ Partial Class MathContest
         Me.MathFunctionGroupBox.TabStop = False
         Me.MathFunctionGroupBox.Text = "Math Function"
         '
-        'AdditionRadioButton
+        'DivisionRadioButton
         '
-        Me.AdditionRadioButton.AutoSize = True
-        Me.AdditionRadioButton.Font = New System.Drawing.Font("Sitka Small", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AdditionRadioButton.Location = New System.Drawing.Point(6, 32)
-        Me.AdditionRadioButton.Name = "AdditionRadioButton"
-        Me.AdditionRadioButton.Size = New System.Drawing.Size(98, 28)
-        Me.AdditionRadioButton.TabIndex = 0
-        Me.AdditionRadioButton.TabStop = True
-        Me.AdditionRadioButton.Text = "Addition"
-        Me.AdditionRadioButton.UseVisualStyleBackColor = True
-        '
-        'SubtractionRadioButton
-        '
-        Me.SubtractionRadioButton.AutoSize = True
-        Me.SubtractionRadioButton.Font = New System.Drawing.Font("Sitka Small", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SubtractionRadioButton.Location = New System.Drawing.Point(6, 66)
-        Me.SubtractionRadioButton.Name = "SubtractionRadioButton"
-        Me.SubtractionRadioButton.Size = New System.Drawing.Size(123, 28)
-        Me.SubtractionRadioButton.TabIndex = 1
-        Me.SubtractionRadioButton.TabStop = True
-        Me.SubtractionRadioButton.Text = "Subtraction"
-        Me.SubtractionRadioButton.UseVisualStyleBackColor = True
+        Me.DivisionRadioButton.AutoSize = True
+        Me.DivisionRadioButton.Font = New System.Drawing.Font("Sitka Small", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DivisionRadioButton.Location = New System.Drawing.Point(6, 134)
+        Me.DivisionRadioButton.Name = "DivisionRadioButton"
+        Me.DivisionRadioButton.Size = New System.Drawing.Size(123, 28)
+        Me.DivisionRadioButton.TabIndex = 3
+        Me.DivisionRadioButton.TabStop = True
+        Me.DivisionRadioButton.Text = "Subtraction"
+        Me.DivisionRadioButton.UseVisualStyleBackColor = True
         '
         'MultiplicationRadioButton
         '
@@ -261,17 +249,29 @@ Partial Class MathContest
         Me.MultiplicationRadioButton.Text = "Multiplication"
         Me.MultiplicationRadioButton.UseVisualStyleBackColor = True
         '
-        'DivisionRadioButton
+        'SubtractionRadioButton
         '
-        Me.DivisionRadioButton.AutoSize = True
-        Me.DivisionRadioButton.Font = New System.Drawing.Font("Sitka Small", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DivisionRadioButton.Location = New System.Drawing.Point(6, 134)
-        Me.DivisionRadioButton.Name = "DivisionRadioButton"
-        Me.DivisionRadioButton.Size = New System.Drawing.Size(123, 28)
-        Me.DivisionRadioButton.TabIndex = 3
-        Me.DivisionRadioButton.TabStop = True
-        Me.DivisionRadioButton.Text = "Subtraction"
-        Me.DivisionRadioButton.UseVisualStyleBackColor = True
+        Me.SubtractionRadioButton.AutoSize = True
+        Me.SubtractionRadioButton.Font = New System.Drawing.Font("Sitka Small", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SubtractionRadioButton.Location = New System.Drawing.Point(6, 66)
+        Me.SubtractionRadioButton.Name = "SubtractionRadioButton"
+        Me.SubtractionRadioButton.Size = New System.Drawing.Size(123, 28)
+        Me.SubtractionRadioButton.TabIndex = 1
+        Me.SubtractionRadioButton.TabStop = True
+        Me.SubtractionRadioButton.Text = "Subtraction"
+        Me.SubtractionRadioButton.UseVisualStyleBackColor = True
+        '
+        'AdditionRadioButton
+        '
+        Me.AdditionRadioButton.AutoSize = True
+        Me.AdditionRadioButton.Font = New System.Drawing.Font("Sitka Small", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AdditionRadioButton.Location = New System.Drawing.Point(6, 32)
+        Me.AdditionRadioButton.Name = "AdditionRadioButton"
+        Me.AdditionRadioButton.Size = New System.Drawing.Size(98, 28)
+        Me.AdditionRadioButton.TabIndex = 0
+        Me.AdditionRadioButton.TabStop = True
+        Me.AdditionRadioButton.Text = "Addition"
+        Me.AdditionRadioButton.UseVisualStyleBackColor = True
         '
         'MathContest
         '
