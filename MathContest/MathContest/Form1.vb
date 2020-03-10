@@ -37,7 +37,7 @@ Public Class MathContest
             AgeTextBoolean = False
             AgeTextBox.Text = ""
             AgeTextBox.Select()
-            MessageBox.Show("wrong age, dumbass")
+            MessageBox.Show("wrong age, man")
         End If
     End Sub
 
