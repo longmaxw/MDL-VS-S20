@@ -54,7 +54,7 @@
         'Next
         Dim sum As Integer
         Dim MyArray(12, 2) As Decimal
-        Dim rollNumber As Integer = 1000
+        Dim rollNumber As Integer = 10000
         For i = 1 To rollNumber
             Randomize()
             sum = Int((6 * Rnd()) + 1) + Int((6 * Rnd()) + 1)
@@ -68,7 +68,7 @@
         Console.WriteLine("                                  ~ Roll Of The Dice ~")
         For i = 1 To 2
             For j = 2 To 12
-                Console.Write(MyArray(j, i).ToString().PadLeft(5) & "  |")
+                Console.Write(MyArray(j, i).ToString().PadLeft(6) & "  |")
             Next
             Console.WriteLine()
         Next
