@@ -33,10 +33,15 @@ Partial Class Form1
         '
         'ListBox1
         '
+        Me.ListBox1.BackColor = System.Drawing.Color.Black
+        Me.ListBox1.Font = New System.Drawing.Font("Courier New", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListBox1.ForeColor = System.Drawing.Color.Lime
         Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.ItemHeight = 17
         Me.ListBox1.Location = New System.Drawing.Point(12, 27)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(237, 290)
+        Me.ListBox1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ListBox1.Size = New System.Drawing.Size(426, 276)
         Me.ListBox1.TabIndex = 0
         '
         'MenuStrip1
@@ -56,30 +61,36 @@ Partial Class Form1
         '
         'RollButton
         '
-        Me.RollButton.Location = New System.Drawing.Point(12, 323)
+        Me.RollButton.Font = New System.Drawing.Font("Sigmar One", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RollButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RollButton.Location = New System.Drawing.Point(13, 323)
         Me.RollButton.Name = "RollButton"
-        Me.RollButton.Size = New System.Drawing.Size(75, 23)
+        Me.RollButton.Size = New System.Drawing.Size(138, 91)
         Me.RollButton.TabIndex = 2
         Me.RollButton.Text = "Roll"
-        Me.RollButton.UseVisualStyleBackColor = True
+        Me.RollButton.UseVisualStyleBackColor = False
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(93, 323)
+        Me.ClearButton.Font = New System.Drawing.Font("Sigmar One", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClearButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ClearButton.Location = New System.Drawing.Point(157, 323)
         Me.ClearButton.Name = "ClearButton"
-        Me.ClearButton.Size = New System.Drawing.Size(75, 23)
+        Me.ClearButton.Size = New System.Drawing.Size(138, 91)
         Me.ClearButton.TabIndex = 3
         Me.ClearButton.Text = "Clear"
-        Me.ClearButton.UseVisualStyleBackColor = True
+        Me.ClearButton.UseVisualStyleBackColor = False
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(174, 323)
+        Me.ExitButton.Font = New System.Drawing.Font("Sigmar One", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ExitButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ExitButton.Location = New System.Drawing.Point(301, 323)
         Me.ExitButton.Name = "ExitButton"
-        Me.ExitButton.Size = New System.Drawing.Size(75, 23)
+        Me.ExitButton.Size = New System.Drawing.Size(138, 91)
         Me.ExitButton.TabIndex = 4
         Me.ExitButton.Text = "Exit"
-        Me.ExitButton.UseVisualStyleBackColor = True
+        Me.ExitButton.UseVisualStyleBackColor = False
         '
         'Form1
         '
