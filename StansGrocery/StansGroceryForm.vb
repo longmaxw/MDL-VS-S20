@@ -1,4 +1,9 @@
-﻿Public Class StansGroceryForm
+﻿'Maxwell Long
+'RCET 0265
+'Spring2020
+'Stan's Grocery
+
+Public Class StansGroceryForm
 
     Private itemsTextFile As String = "C:\Users\broth\source\repos\Grocery.txt"
 
